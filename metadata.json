@@ -1,0 +1,6 @@
+{
+  "name": "ScriptScore AI",
+  "description": "AI-powered analysis and feedback dashboard for YouTube video scripts to optimize hook strength, storytelling, retention, and viewer engagement.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

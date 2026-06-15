@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Shadow Card effect underneath -->
+    <path
+        android:pathData="M 28,32 C 28,27.5 31.5,24 36,24 L 72,24 C 76.5,24 80,27.5 80,32 L 80,68 C 80,72.5 76.5,76 72,76 L 36,76 C 31.5,76 28,72.5 28,68 Z"
+        android:fillColor="#15143C"
+        android:fillAlpha="0.4" />
+
+    <!-- Main Folder / Script Card -->
+    <path
+        android:pathData="M 26,30 C 26,25.6 29.6,22 34,22 L 74,22 C 78.4,22 82,25.6 82,30 L 82,66 C 82,70.4 78.4,74 74,74 L 34,74 C 29.6,74 26,70.4 26,66 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="26"
+                android:startY="22"
+                android:endX="82"
+                android:endY="74">
+                <item android:offset="0.0" android:color="#4F46E5" />
+                <item android:offset="0.6" android:color="#6366F1" />
+                <item android:offset="1.0" android:color="#EC4899" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Document Script Line Slots -->
+    <path
+        android:pathData="M 34,32 L 62,32 M 34,39 L 52,39 M 34,46 L 46,46"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeAlpha="0.6" />
+
+    <!-- Video Play Bubble Frame -->
+    <path
+        android:pathData="M 44,48 C 44,43.5 47.5,40 52,40 L 72,40 C 76.5,40 80,43.5 80,48 L 80,64 C 80,68.5 76.5,72 72,72 L 52,72 C 47.5,72 44,68.5 44,64 L 44,58 Z"
+        android:fillColor="#09090B" />
+
+    <!-- Play icon triangle inside Video Frame -->
+    <path
+        android:pathData="M 59,50 L 69,56 L 59,62 Z"
+        android:fillColor="#FAFAFA" />
+
+    <!-- AI Score Sparkle Stars in the top right -->
+    <path
+        android:pathData="M 80,20 L 82,23 L 85,24 L 82,25 L 80,28 L 78,25 L 75,24 L 78,23 Z"
+        android:fillColor="#FCD34D" />
+    <path
+        android:pathData="M 22,70 L 23.5,72 L 25.5,72.5 L 23.5,73 L 22,75 L 20.5,73 L 18.5,72.5 L 20.5,72 Z"
+        android:fillColor="#A5B4FC" />
+        
+</vector>
